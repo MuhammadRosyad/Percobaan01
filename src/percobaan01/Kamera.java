@@ -10,5 +10,13 @@ package percobaan01;
  * @author Om Genocide
  */
 public class Kamera {
+    String Merek;
+    String Megapixel;
+    String Harga;
     
+    void infoKamera(){
+        System.out.println("Merek   :"+Merek);
+        System.out.println("Megapixel   :"+Megapixel);
+        System.out.println("Harga   :"+Harga);
+    }
 }
